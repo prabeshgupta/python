@@ -5,12 +5,14 @@ list1 = [1,3,6,4,6,3,6,34,4,3]
 # list1.reverse()
 # print(list1)
 
+
 # Method 2
 # temp = []
 # count= len(list1)-1
 # for i in range(count,-1,-1):
 #     temp.append(list1[i])
 # print(temp)
+
 
 #Method 3
 temp = []
