@@ -21,7 +21,7 @@ print()
 #An array that has 2-D arrays (matrices) as its elements is called 3-D array.
 
 arr3 = np.array([[[1,23,56],[2,5,743]],[[12,36,4],[1,26,4]]])
-print(arr3.ndim)
+print(arr3.ndim) #n Dimension
 
 
 #You can define the number of dimensions by using the ndmin argument

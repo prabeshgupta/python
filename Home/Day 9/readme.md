@@ -1,2 +1,3 @@
 NumPy
 Access Array
+Slicing
