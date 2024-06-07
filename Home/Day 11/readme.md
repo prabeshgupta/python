@@ -1,0 +1,4 @@
+Splitting
+Searching
+Sorting
+Filtering
