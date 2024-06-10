@@ -20,6 +20,11 @@ def search(listData, indexData):
 print(search(userList, findIndex))
 
 
-#String index
 name = "Prabesh Gupta"
+#String index
 print(name.index("h"))
+#String Split
+spName=name.split(" ")
+
+for i in range(len(spName)):
+    print(spName[i].upper())
