@@ -1,1 +1,1 @@
-Null Pointer Variable
+Null Pointer VariableNull Pointer Variable

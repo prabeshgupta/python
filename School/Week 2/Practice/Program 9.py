@@ -11,6 +11,6 @@ def palindrome(word):
     else:
         return "Not Palindrome"
 
-print(palindrome("Palindrome"))
+print(palindrome("DaD"))
 
 
