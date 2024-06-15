@@ -1,10 +1,13 @@
+#Topper from file
+
 from cmath import inf
 
-with open("/home/aayushgupta/Documents/Python/School/Week 3/Day 2/input.txt", "r") as txt:
+with open("C:\\Users\gamerzchoices\Documents\CODING\python\School\Week 3\Day 2\input.txt", "r") as txt:
     lines =  txt.readlines()
 
 narr = []
 studentScore = {}
+
 for line in lines:
     narr = line.strip().split()
     print(narr)
@@ -20,9 +23,10 @@ for line in lines:
 
 print(studentScore)
 
-with open("/home/aayushgupta/Documents/Python/School/Week 3/Day 2/output.txt","w") as out:
-    high= float(-inf)
+with open("C:\\Users\gamerzchoices\Documents\CODING\python\School\Week 3\Day 2\output.txt","w") as out:
+    high = float(-inf)
     for key, val in studentScore.items():
-        if studentScore[key] > float(high):
+        out.write(f"{key}: {val}\n")
+        if studentScore[key] > high:
             top, high = key, studentScore[key]
-    out.write(f"{top}: {high:.2f}\n")
+    print(f"{top}: {high:.2f}\n")
