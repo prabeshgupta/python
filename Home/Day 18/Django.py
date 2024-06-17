@@ -1,0 +1,1 @@
+# Django is free and open source back-end server side web framework. It is used to build web pages using Python. 
