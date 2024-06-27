@@ -3,6 +3,7 @@ if 10>10:
 elif 10==10:
     print(True)
 
+# if 2>3 and 2**4 >10 is more efficient than if 2**4 > 10 and 2>3 becuase more computation is needed for first
 
 #Ternary Operators or Conditional Expressions
 a = 2

@@ -7,6 +7,7 @@ print(len(greet))
 print(greet.upper())
 print(greet.lower())
 print(greet.capitalize())
+print(greet.title())
 
 print(greet.replace("World", "Developer"))
 

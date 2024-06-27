@@ -9,7 +9,7 @@ Dense Array: is the opposite of a sparse array: most of the values are not zero.
 
 
 CSC - Compressed Sparse Column.
-CSR - Compressed Sparse Row
+CSR - Compressed Sparse Row.
 """
 
 import numpy as np
