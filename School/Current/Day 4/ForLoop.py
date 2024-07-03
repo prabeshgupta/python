@@ -1,3 +1,6 @@
+#Iterables str, set, tuple, dict, list..............
+
+
 #With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
 fruits = ["apple", "banana", "cherry"]
@@ -14,7 +17,10 @@ for x in range(2, 30, 3):
 #The else block will NOT be executed if the loop is stopped by a break statement
 
 for x in range(6):
-  if x == 3: break
+  if x == 3: break #stops current and next iteration
   print(x)
 else:
   print("Finally finished!")
+
+
+#Continue stops current iteration and runs the next iteration
