@@ -1,6 +1,6 @@
 **Telusco - Package manager, Function and Exception Handling.
 
-# Write a function that takes number are argument and returns true if number is even or false.
+# Write a function that takes number are argument and returns true if number is even otherwise false.
 
 # Write a function that takes the String as argument and returns the reverse of the string.
 
