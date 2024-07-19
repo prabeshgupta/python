@@ -1,5 +1,5 @@
 def check_upper(word):
-    first_char = word[0:1]
+    first_char = word[0]
     if first_char == first_char.upper():
         return True
     else:
