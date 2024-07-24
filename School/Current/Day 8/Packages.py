@@ -10,3 +10,7 @@ print(arith.sum)
 #PYPI.ORG means Python Package Index
 
 #pip install django==1.1.1
+
+#major -> completely rewritten
+#minor -> add features
+#patch -> bug fixes
