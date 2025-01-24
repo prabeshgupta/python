@@ -1,13 +1,15 @@
+import os
 import streamlit as st
 import numpy as np
 import pickle
 
 # Load the trained model
-with open('trained_model.pkl', 'rb') as file:
+model_path = os.path.join(os.getcwd(), 'trained_model.pkl')
+with open(model_path, 'rb') as file:
     loaded_model = pickle.load(file)
 
 # Load the pre-fitted scaler
-with open('scaler.pkl', 'rb') as file:
+with open(os.path.join(os.getcwd(), 'scaler.pkl'), 'rb') as file:
     scaler = pickle.load(file)
 
 # Streamlit app
