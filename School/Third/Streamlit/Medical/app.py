@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
+#Gets the folder where your script (app.py) is located and then add trained_model.pkl to it.
 model_path = os.path.join(os.path.dirname(__file__), 'trained_model.pkl')
 with open(model_path, 'rb') as file:
     loaded_model = pickle.load(file)
