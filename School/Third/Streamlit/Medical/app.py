@@ -19,7 +19,7 @@ st.title("Insurance Charges Prediction")
 st.write("Enter the details below to predict insurance charges.")
 
 # User input
-age = st.number_input("Age", min_value=1, max_value=100, value=25, step=1)
+age = st.number_input("Age", min_value=18, max_value=100, value=18, step=1)
 bmi = st.number_input("BMI", min_value=10.0, max_value=50.0, value=22.0, step=0.1)
 children = st.number_input("Number of Children", min_value=0, max_value=10, value=0, step=1)
 
